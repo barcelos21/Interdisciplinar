@@ -1,0 +1,22 @@
+.featurette {
+    position: relative;
+    top: -30%;
+    left: 10%;
+}
+.no-padding: {
+	padding: 0px !important;
+}
+
+.set-position{
+  top: -90;
+  padding-top: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+  position: relative;
+  float: none;
+  margin: 0 auto;
+}
+
+.marketing {
+	font-family: 'Montserrat', sans-serif;
+}

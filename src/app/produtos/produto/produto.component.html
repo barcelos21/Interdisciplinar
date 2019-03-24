@@ -1,0 +1,14 @@
+      <div class="row text-center">
+        <div class="jumbotron my-4">
+          <div class="card">
+            <img class="card-img-top" src="../../{{produto?.image}}" alt="">
+            <div class="card-body">
+              <a [routerLink]="['/produtos', produto.id]">
+                <h4 class="card-title">{{produto?.name}}</h4>
+                <p class="card-text">{{produto?.price}}</p>
+                <p class="card-text">{{produto?.about}}</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>

@@ -1,0 +1,46 @@
+{
+  "servicos": [
+    {
+      "id": "1",
+      "name": "Corte De Cabelo",
+      "image": "assets/images/servicos/corteCabelo.jpg",
+      "price":  49.99,
+      "about": "Este serviço é oferecido por divrsos profissionais em sua área! Registre-se para ter acesso às suas localizações" 
+    },
+    {
+      "id": "2",
+      "name": "Eletricista",
+      "image": "assets/images/servicos/eletricista.jpg",
+      "price":  200.99,
+      "about": "Este serviço é oferecido por divrsos profissionais em sua área! Registre-se para ter acesso às suas localizações" 
+    },
+    {
+      "id": "3",
+      "name": "Maquiagem",
+      "image": "assets/images/servicos/maquiagem.jpg",
+      "price":  89.99,
+      "about": "Este serviço é oferecido por divrsos profissionais em sua área! Registre-se para ter acesso às suas localizações" 
+    },
+    {
+      "id": "4",
+      "name": "Encanamento",
+      "image": "assets/images/servicos/encanador.jpg",
+      "price":  140.99,
+      "about": "Este serviço é oferecido por divrsos profissionais em sua área! Registre-se para ter acesso às suas localizações" 
+    },
+    {
+      "id": "5",
+      "name": "Criação de Logos",
+      "image": "assets/images/servicos/designer.jpg",
+      "price":  99.99,
+      "about": "Este serviço é oferecido por divrsos profissionais em sua área! Registre-se para ter acesso às suas localizações" 
+    },
+    {
+      "id": "6",
+      "name": "Teste",
+      "image": "assets/images/servicos/corteCabelo.jpg",
+      "price":  49.99,
+      "about": "Este serviço é oferecido por divrsos profissionais em sua área! Registre-se para ter acesso às suas localizações" 
+    }
+  ]
+}

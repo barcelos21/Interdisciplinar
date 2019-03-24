@@ -1,0 +1,88 @@
+<!--NavBar-->
+<div class="navbar-wrapper nav-down">
+	<div class="container-fluid">
+		<nav class="navbar  navbar-static-top">
+		  <div class="container">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand logo" href="#"><img src="{{logo}}" /></a>
+		    </div>
+		    <div id="navbar" class="navbar-collapse collapse">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li class="active"><a class="path"[routerLink]="['/']">Home</a></li>
+		        <li><a class="path" href="#about">{{about}}</a></li>
+		        <li><a class="path" href="#">{{services}}</a></li>
+		        <li><a class="path" [routerLink]="['/contact']">{{contact}}</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+	</div>
+</div>
+
+<!--pagina principal-->
+	<div class="container features">
+  <div class="row default-padding">
+      <div class="col-lg-4">
+        <img class="img-circle metrics" src="{{metrics}}" alt="Generic placeholder image" width="140" height="140">
+        <h2 class="feat-title"><b>{{metricsTitle}}</b></h2>
+        <p>Se não precisa mais, doe para quem não tem !</p>
+        <p><a class="btn btn-warning" href="#" role="button">Veja mais &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="img-circle" src="{{dashboard}}" alt="Generic placeholder image" width="140" height="140">
+        <h2 class="feat-title"><b>{{dashboardTitle}}</b></h2>
+        <p>Já pensou em ajudar bem hoje ? </p>
+        <p><a class="btn btn-warning" href="#" role="button">Veja mais &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="img-circle" src="{{location}}" alt="Generic placeholder image" width="140" height="140">
+        <h2 class="feat-title"><b>{{locationTitle}}</b></h2>
+        <p>\Encontre o ponto de doação mais proximo</p>
+        <p><a class="btn btn-warning" href="#" role="button">Veja mais &raquo;</a></p>
+      </div> <!-- /.col-lg-4 -->
+  </div><!-- /.row -->
+</div>
+
+   <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">QUALQUER DOAÇAO É BEM VINDA <span class="text-muted">Essa é a diferença</span></h2>
+      <p class="lead">Nossos pontos de arrecadação recebem roupas, alimentos, brinquedos e produtos de higiene .</p>
+    </div>
+    <div class="col-md-5">
+      <img class="featurette-image img-responsive center-block" src=".../../assets/images/feat_1.jpg" alt="Generic placeholder image">
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7 col-md-push-5">
+      <h2 class="featurette-heading">CONSEGUIMOS IR ATE VOCÊ. <span class="text-muted"></span></h2>
+      <p class="lead">Quero doar mas não tenho como levar. Não se preocupe com isso, conseguimos retirara sua doação em qualquer lugar.</p>
+    </div>
+    <div class="col-md-5 col-md-pull-7">
+      <img class="featurette-image img-responsive center-block" src=".../../assets/images/feat_2.jpg" alt="Generic placeholder image">
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">E por último, mas não menos importante: <span class="text-muted">Seus clientes!.</span></h2>
+      <p class="lead">Sim, o público hoje em dia é muito exigente, mas podemos te ajudar a agradá-lo ;).</p>
+    </div>
+    <div class="col-md-5">
+      <img class="featurette-image img-responsive center-block" src=".../../assets/images/feat_3.jpg" alt="Generic placeholder image">
+    </div>
+  </div>
+
+  <hr class="featurette-divider">

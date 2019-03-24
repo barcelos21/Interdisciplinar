@@ -1,0 +1,20 @@
+
+    <app-navbar></app-navbar>
+    <app-carousel></app-carousel>
+    <router-outlet></router-outlet>
+    <app-footer></app-footer>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+      <!--Navbar fade script-->
+      <script type="text/javascript">
+        (function($) {
+            $(document).ready(function(){
+                $(window).scroll(function(){
+                    if ($(this).scrollTop() > 200) {
+                        $('.navbar-wrapper').fadeIn(300);
+                    } else {
+                        $('.navbar-wrapper').fadeOut(300);
+                    }
+                });
+            });
+        })(jQuery);
+    </script>

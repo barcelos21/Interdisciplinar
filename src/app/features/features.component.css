@@ -1,0 +1,15 @@
+.features {
+	background-color: #114861;
+	width: 100%;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.default-padding {
+	padding-top: 50px;
+	padding-bottom: 15px;
+}
+
+.metrics{
+	background-color: #fff;
+}

@@ -1,0 +1,12 @@
+
+
+<div class="container">
+  
+  <h2>Veja abaixo alguns serviços que você pode encontrar em sua região!</h2>
+
+  <div *ngFor="let servico of servicos" class="col-md-4">
+    <app-servico [servico]="servico"></app-servico>
+  </div>
+
+</div>
+
