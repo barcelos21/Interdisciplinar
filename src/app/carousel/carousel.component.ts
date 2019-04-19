@@ -27,7 +27,7 @@ export class CarouselComponent implements OnInit {
     this.learnMore='Saiba Mais sobre o Projeto!';
     this.testimonies='Veja o que estão falando!';
     this.headlineRegister =  'Uma forma simples de ajudar!';
-    this.headlineLearnMore= 'Você pode fazer a difereça!';
+    this.headlineLearnMore= 'Você pode fazer a diferença!';
     this.headlineTestimonies = '\"Nunca pensei que pudesse ajudar tantas pessoas!\"'
     this.registerCaption = 'Qualquer doação é bem vinda.';
     this.learnMoreCaption = 'O importante não é o que se dá, mas o amor com que se dá!';

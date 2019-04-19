@@ -11,10 +11,10 @@ export class NavbarComponent implements OnInit {
   about='Sobre';
   contact='Contato';
   services='Serviços';
-  products='Produtos';
+  products='Pontos de Coleta';
 
   constructor() {
-    this.logo='./assets/images/AllPlaces.png';
+    this.logo='./assets/images/AllPlaces.jpg';
    }
 
   ngOnInit() {

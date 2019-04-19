@@ -1,13 +1,17 @@
-body {
-  padding-top: 54px;
+.marketing {
+	font-family: 'Montserrat', sans-serif;
 }
 
-@media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
+.no-padding: {
+	padding: 0px !important;
 }
 
-.card {
-  height: 100%;
+.set-position{
+  top: -90;
+  padding-top: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+  position: relative;
+  float: none;
+  margin: 0 auto;
 }
